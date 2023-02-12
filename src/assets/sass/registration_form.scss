@@ -1,0 +1,70 @@
+.registration-form {
+    margin: 50px 0;
+
+    .heading {
+        text-align: center;
+
+        .note {
+            font-weight: bold;
+            color: red;
+            font-size: 18px;
+        }
+
+        h2 {
+            margin-top: 10px;
+            font-weight: bold;
+            font-size: 50px;
+        }
+    }
+
+    form {
+        .form-group {
+            margin-bottom: 25px;
+
+            .form-label {
+                font-weight: bold;
+            }
+
+            .form-control {
+                padding: 15px 20px !important;
+            }
+        }
+    }
+}
+
+@media screen and (max-width: 768px) {
+    .registration-form {
+        margin: 25px 0;
+
+        .heading {
+            text-align: center;
+
+            .note {
+                font-size: 15px;
+                width: 90%;
+                margin: 0 auto;
+                display: block;
+            }
+
+            h2 {
+                font-size: 25px;
+                width: 90%;
+                margin: 10px auto 30px auto;
+            }
+        }
+
+        form {
+            .form-group {
+                margin-bottom: 25px;
+
+                .form-label {
+                    font-weight: bold;
+                }
+
+                .form-control {
+                    padding: 15px 20px !important;
+                }
+            }
+        }
+    }
+}

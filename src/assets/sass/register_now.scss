@@ -1,0 +1,73 @@
+@import 'variables';
+
+.register-now {
+    .left {
+        padding: 80px;
+
+        h2 {
+            font-size: 60px;
+            font-weight: bold;
+            margin-bottom: 40px;
+        }
+
+        a {
+            background: #EBF9EB;
+            font-size: 18px;
+            color: $green;
+            font-weight: bold;
+        }
+    }
+
+    .middle {
+        padding: 0 50px;
+        background: black;
+        color: white;
+        font-size: 35px;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        font-weight: bold;
+
+        .get-books {
+            display: none;
+        }
+    }
+
+    .right {
+        padding: 0;
+    }
+}
+
+@media screen and (max-width: 768px) {
+    .register-now {
+        .left {
+            padding: 30px 20px;
+
+            h2 {
+                font-size: 35px;
+                margin-bottom: 30px;
+                text-align: center;
+            }
+
+            a {
+                width: 100%;
+            }
+        }
+
+        .middle {
+            padding: 30px 25px;
+            font-size: 17px;
+            text-align: center;
+
+            .get-books {
+                margin-top: 20px;
+                display: block;
+                padding: 0 20px;
+            }
+        }
+
+        .right {
+            display: none;
+        }
+    }
+}

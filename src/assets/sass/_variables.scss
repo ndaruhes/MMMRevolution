@@ -1,0 +1,12 @@
+$green: #008037;
+
+// TEXT
+.text-green {
+    color: $green;
+}
+
+// BACKGROUND
+.bg-green {
+    background: $green !important;
+    color: white !important;
+}
