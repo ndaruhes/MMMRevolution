@@ -1,5 +1,5 @@
 <template>
-    <div class="how_it_works">
+    <div class="how_it_works" id="howItWorks">
         <div class="container">
             <h2 class="text-center fw-bold">Prinsip dari MMM Revolution</h2>
             <div class="row">

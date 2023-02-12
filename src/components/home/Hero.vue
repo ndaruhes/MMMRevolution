@@ -1,5 +1,5 @@
 <template>
-    <div class="hero">
+    <div class="hero" id="hero">
         <div class="container-fluid">
             <div class="row">
                 <div class="col-md-6 left">

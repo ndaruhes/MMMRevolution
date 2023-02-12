@@ -1,5 +1,5 @@
 <template>
-    <div class="example">
+    <div class="example" id="example">
         <div class="container">
             <div class="heading">
                 <div class="row align-items-center justify-content-between">
