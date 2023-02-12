@@ -6,27 +6,27 @@
                 pagination-clickable="true" slides-per-view="auto" centered-slides="true">
                 <swiper-slide>
                     <div class="image"
-                        style="background: url('/src/assets/images/transaction-example/slideshow/1.jpeg')"></div>
+                        :style="`background: url('${getImgUrl(`transaction-example/slideshow/1.jpeg`)}')`"></div>
                 </swiper-slide>
                 <swiper-slide>
                     <div class="image"
-                        style="background: url('/src/assets/images/transaction-example/slideshow/2.jpeg')"></div>
+                        :style="`background: url('${getImgUrl(`transaction-example/slideshow/2.jpeg`)}')`"></div>
                 </swiper-slide>
                 <swiper-slide>
                     <div class="image"
-                        style="background: url('/src/assets/images/transaction-example/slideshow/3.png')"></div>
+                        :style="`background: url('${getImgUrl(`transaction-example/slideshow/3.png`)}')`"></div>
                 </swiper-slide>
                 <swiper-slide>
                     <div class="image"
-                        style="background: url('/src/assets/images/transaction-example/slideshow/4.jpeg')"></div>
+                        :style="`background: url('${getImgUrl(`transaction-example/slideshow/4.jpeg`)}')`"></div>
                 </swiper-slide>
                 <swiper-slide>
                     <div class="image"
-                        style="background: url('/src/assets/images/transaction-example/slideshow/5.jpeg')"></div>
+                        :style="`background: url('${getImgUrl(`transaction-example/slideshow/5.jpeg`)}')`"></div>
                 </swiper-slide>
                 <swiper-slide>
                     <div class="image"
-                        style="background: url('/src/assets/images/transaction-example/slideshow/6.jpeg')"></div>
+                        :style="`background: url('${getImgUrl(`transaction-example/slideshow/6.jpeg`)}')`"></div>
                 </swiper-slide>
             </swiper-container>
 
@@ -35,33 +35,39 @@
                     watch-slides-progress="true">
                     <swiper-slide>
                         <div class="image"
-                            style="background: url('/src/assets/images/transaction-example/slideshow/1.jpeg')"></div>
+                            :style="`background: url('${getImgUrl(`transaction-example/slideshow/1.jpeg`)}')`"></div>
                     </swiper-slide>
                     <swiper-slide>
                         <div class="image"
-                            style="background: url('/src/assets/images/transaction-example/slideshow/2.jpeg')"></div>
+                            :style="`background: url('${getImgUrl(`transaction-example/slideshow/2.jpeg`)}')`"></div>
                     </swiper-slide>
                     <swiper-slide>
                         <div class="image"
-                            style="background: url('/src/assets/images/transaction-example/slideshow/3.png')"></div>
+                            :style="`background: url('${getImgUrl(`transaction-example/slideshow/3.png`)}')`"></div>
                     </swiper-slide>
                     <swiper-slide>
                         <div class="image"
-                            style="background: url('/src/assets/images/transaction-example/slideshow/4.jpeg')"></div>
+                            :style="`background: url('${getImgUrl(`transaction-example/slideshow/4.jpeg`)}')`"></div>
                     </swiper-slide>
                     <swiper-slide>
                         <div class="image"
-                            style="background: url('/src/assets/images/transaction-example/slideshow/5.jpeg')"></div>
+                            :style="`background: url('${getImgUrl(`transaction-example/slideshow/5.jpeg`)}')`"></div>
                     </swiper-slide>
                     <swiper-slide>
                         <div class="image"
-                            style="background: url('/src/assets/images/transaction-example/slideshow/6.jpeg')"></div>
+                            :style="`background: url('${getImgUrl(`transaction-example/slideshow/6.jpeg`)}')`"></div>
                     </swiper-slide>
                 </swiper-container>
             </div>
         </div>
     </div>
 </template>
+
+<script setup>
+const getImgUrl = (pic) => {
+    return new URL(`/src/assets/images/${pic}`, import.meta.url).href;
+}
+</script>
 
 <style lang="scss" scoped>
 @import '@/assets/sass/slideshow';
