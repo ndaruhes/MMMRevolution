@@ -11,21 +11,21 @@
             </div>
 
             <div class="container">
-                <form action="#" method="POST">
+                <form action="https://api.web3forms.com/submit" method="POST">
+                    <input type="hidden" name="access_key" value="4ac51127-007f-4dc0-8349-7e7c53f62c90">
                     <div class="form-group">
                         <label class="form-label">Fullname<span class="text-danger">*</span></label>
-                        <input type="text" class="form-control" placeholder="Your Name" value="John Doe">
+                        <input type="text" class="form-control" placeholder="Your Name" value="John Doe" name="name">
                     </div>
                     <div class="form-group">
-                        <label class="form-label">Email registrasi mmmrevolusi.com<span
-                                class="text-danger">*</span></label>
-                        <input type="email" class="form-control" placeholder="Example : john.doe@email.com">
+                        <label class="form-label">Email registrasi mmmrevolusi.com<span class="text-danger">*</span></label>
+                        <input type="email" class="form-control" placeholder="Example: john.doe@email.com" name="email">
                     </div>
                     <div class="form-group">
                         <label class="form-label">Mobile phone<span class="text-danger">*</span></label>
-                        <input type="number" class="form-control" placeholder="Example : Lorem ipsum dolor sit amet">
+                        <input type="number" class="form-control" placeholder="+62 xxx - xxxx - xxxx" name="phone">
                     </div>
-                    <div class="form-group">
+                    <!-- <div class="form-group">
                         <label class="form-label">Opsi 1 subdomain<span class="text-danger">*</span></label>
                         <input type="text" class="form-control" placeholder="Example : Lorem ipsum dolor sit amet">
                         <span class="text-secondary">
@@ -44,11 +44,15 @@
                         <span class="text-success fw-bold">
                             Note : Jika opsi 1 sudah diambil orang, maka admin akan menggunakan opsi 2 atau 3
                         </span>
-                    </div>
+                    </div> -->
                     <div class="form-group">
-                        <label class="form-label">Message (optional) <span class="text-danger">*</span></label>
-                        <textarea rows="4" class="form-control" placeholder="Lorem ipsum dolor sit amet"></textarea>
+                        <label class="form-label">Message & 3 Opsi domain<span class="text-danger">*</span></label>
+                        <textarea rows="4" class="form-control" placeholder="Contoh opsi subdomain: www.edisantoso.mmmrevolusi.com / www.edihalim.mmmrevolusi.com / www.edihalim99.mmmrevolusi.com" name="message"></textarea>
+                        <span class="text-green d-block mt-3 fw-bold">
+                            Note : Jika opsi 1 sudah diambil orang, maka admin akan menggunakan opsi 2 atau 3
+                        </span>
                     </div>
+                    <input type="hidden" name="redirect" value="https://web3forms.com/success">
                     <button type="submit" class="btn bg-green w-100 py-3 fw-bold fs-6">Send</button>
                 </form>
             </div>
