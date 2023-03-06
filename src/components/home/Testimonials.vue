@@ -9,7 +9,7 @@
                     clickable: true,
                 }" :modules="modules" class="mySwiper">
                     <swiper-slide>
-                        <img src="@/assets/images/testimonials/1.png" alt="testimonials" class="rounded-circle">
+                        <img src="@/assets/images/testimonials/1.jpeg" alt="testimonials" class="rounded-circle">
                         <span class="name">Ahmad Wahyu</span>
                         <span class="role">Manajer</span>
                         <span class="quote">
@@ -20,7 +20,7 @@
                         </span>
                     </swiper-slide>
                     <swiper-slide>
-                        <img src="@/assets/images/testimonials/2.png" alt="testimonials" class="rounded-circle">
+                        <img src="@/assets/images/testimonials/2.jpeg" alt="testimonials" class="rounded-circle">
                         <span class="name">Michael Siahahan</span>
                         <span class="role">Pengusaha</span>
                         <span class="quote">
@@ -30,7 +30,7 @@
                         </span>
                     </swiper-slide>
                     <swiper-slide>
-                        <img src="@/assets/images/testimonials/3.png" alt="testimonials" class="rounded-circle">
+                        <img src="@/assets/images/testimonials/3.jpeg" alt="testimonials" class="rounded-circle">
                         <span class="name">David Raditya</span>
                         <span class="role">Karyawan Swasta</span>
                         <span class="quote">
