@@ -1,8 +1,8 @@
 <template>
     <div class="testimonials" id="testimonials">
         <div class="container">
-            <span>Testimonials</span>
-            <h2>What our member says?</h2>
+            <span>Testimonial</span>
+            <h2>Apa yang member kami katakan?</h2>
 
             <div class="wrapper">
                 <swiper :navigation="true" :slidesPerView="'auto'" :spaceBetween="30" :pagination="{
@@ -10,63 +10,33 @@
                 }" :modules="modules" class="mySwiper">
                     <swiper-slide>
                         <img src="@/assets/images/testimonials/1.png" alt="testimonials" class="rounded-circle">
-                        <span class="name">Nicholas Hudson</span>
-                        <span class="role">Employee</span>
+                        <span class="name">Ahmad Wahyu</span>
+                        <span class="role">Manajer</span>
                         <span class="quote">
-                            “MMM Revolution really helps me a lot with all the benefit it’s has! How incredible way to
-                            saving money and learning how to manage them. I love the community members as well, they are
-                            welcoming and really generous. Thank You!”
+                            Revolusi MMM akan dimulai tahun 2023, jadi jangan tunda dan informasikan kepada semua teman Anda
+                            beserta diri Anda sendiri agar revolusi besar ini mencapai setiap rumah dan ada kemajuan ekonomi
+                            dalam kehidupan masyarakat dan orang-orang saling membantu dengan sepenuh hati. Jadilah bagian
+                            dari revolusi ini.”
                         </span>
                     </swiper-slide>
                     <swiper-slide>
                         <img src="@/assets/images/testimonials/2.png" alt="testimonials" class="rounded-circle">
-                        <span class="name">Gerard Cohen</span>
-                        <span class="role">Employee</span>
+                        <span class="name">Michael Siahahan</span>
+                        <span class="role">Pengusaha</span>
                         <span class="quote">
-                            “MMM Revolution really helps me a lot with all the benefit it’s has! How incredible way to
-                            saving money and learning how to manage them. I love the community members as well, they are
-                            welcoming and really generous. Thank You!”
+                            MMM Revolution sangat membantu saya dengan semua manfaat yang dimilikinya! Sungguh cara yang
+                            luar biasa untuk menghemat uang dan mempelajari cara mengelolanya. Saya juga mencintai anggota
+                            komunitas, mereka ramah dan sangat murah hati. Terima kasih!”
                         </span>
                     </swiper-slide>
                     <swiper-slide>
                         <img src="@/assets/images/testimonials/3.png" alt="testimonials" class="rounded-circle">
-                        <span class="name">Keith Morrison</span>
-                        <span class="role">Employee</span>
+                        <span class="name">David Raditya</span>
+                        <span class="role">Karyawan Swasta</span>
                         <span class="quote">
-                            “MMM Revolution really helps me a lot with all the benefit it’s has! How incredible way to
-                            saving money and learning how to manage them. I love the community members as well, they are
-                            welcoming and really generous. Thank You!”
-                        </span>
-                    </swiper-slide>
-
-                    <swiper-slide>
-                        <img src="@/assets/images/testimonials/1.png" alt="testimonials" class="rounded-circle">
-                        <span class="name">Nicholas Hudson</span>
-                        <span class="role">Employee</span>
-                        <span class="quote">
-                            “MMM Revolution really helps me a lot with all the benefit it’s has! How incredible way to
-                            saving money and learning how to manage them. I love the community members as well, they are
-                            welcoming and really generous. Thank You!”
-                        </span>
-                    </swiper-slide>
-                    <swiper-slide>
-                        <img src="@/assets/images/testimonials/2.png" alt="testimonials" class="rounded-circle">
-                        <span class="name">Gerard Cohen</span>
-                        <span class="role">Employee</span>
-                        <span class="quote">
-                            “MMM Revolution really helps me a lot with all the benefit it’s has! How incredible way to
-                            saving money and learning how to manage them. I love the community members as well, they are
-                            welcoming and really generous. Thank You!”
-                        </span>
-                    </swiper-slide>
-                    <swiper-slide>
-                        <img src="@/assets/images/testimonials/3.png" alt="testimonials" class="rounded-circle">
-                        <span class="name">Keith Morrison</span>
-                        <span class="role">Employee</span>
-                        <span class="quote">
-                            “MMM Revolution really helps me a lot with all the benefit it’s has! How incredible way to
-                            saving money and learning how to manage them. I love the community members as well, they are
-                            welcoming and really generous. Thank You!”
+                            MMM Revolution bekerja sempurna. Mengapa membuang-buang waktu untuk kerja keras demi uang,
+                            ketika Anda dapat membantu orang dan sebagai gantinya menerima bantuan yang lebih besar? MMM
+                            Revolution saat ini dapat dengan mudah disebut sebagai cara terbaik untuk menghasilkan uang!”
                         </span>
                     </swiper-slide>
                 </swiper>

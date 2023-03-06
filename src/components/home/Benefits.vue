@@ -1,5 +1,5 @@
 <template>
-    <div class="benefits">
+    <div class="benefits" id="benefits">
         <img src="@/assets/images/benefits.png" alt="benefits" class="image-top w-100">
         <div class="container">
             <div class="row flex-column-reverse flex-lg-row">
@@ -7,7 +7,7 @@
                     <span class="top-title">Benefits</span>
                     <span class="title">Keuntungan Menjadi Member MMMREVOLUSI.com</span>
                     <ol type="1">
-                        <li>Mendapatkan E-book marketing grats (image ebook duplicate)</li>
+                        <li>Mendapatkan E-book marketing gratis (image ebook duplicate)</li>
                         <li>Dapatkan subdomain website ini GRATIS</li>
                     </ol>
                     <span class="note">

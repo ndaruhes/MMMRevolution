@@ -1,5 +1,5 @@
 <template>
-    <div class="registration-form">
+    <div class="registration-form" id="registrationForm">
         <div class="col-md-7 mx-auto">
             <div class="heading">
                 <span class="note">
@@ -47,8 +47,10 @@
                     </div> -->
                     <div class="form-group">
                         <label class="form-label">Message & 3 Opsi domain<span class="text-danger">*</span></label>
-                        <textarea rows="4" class="form-control" placeholder="Contoh opsi subdomain: www.edisantoso.mmmrevolusi.com / www.edihalim.mmmrevolusi.com / www.edihalim99.mmmrevolusi.com" name="message"></textarea>
-                        <span class="text-green d-block mt-3 fw-bold">
+                        <textarea rows="4" class="form-control"
+                            placeholder="Contoh opsi subdomain: www.edisantoso.mmmrevolusi.com / www.edihalim.mmmrevolusi.com / www.edihalim99.mmmrevolusi.com"
+                            name="message"></textarea>
+                        <span class="text-green d-block mt-3 fw-bold note-green">
                             Note : Jika opsi 1 sudah diambil orang, maka admin akan menggunakan opsi 2 atau 3
                         </span>
                     </div>

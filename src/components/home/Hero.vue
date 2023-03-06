@@ -14,13 +14,13 @@
                     <div class="get-books col-md-9 mx-auto">
                         <div class="row">
                             <div class="col-4">
-                                <img src="@/assets/images/book.png" alt="book" class="w-100">
+                                <img src="@/assets/images/books/book1.png" alt="book" class="w-100">
                             </div>
                             <div class="col-4">
-                                <img src="@/assets/images/book.png" alt="book" class="w-100">
+                                <img src="@/assets/images/books/book2.png" alt="book" class="w-100">
                             </div>
                             <div class="col-4">
-                                <img src="@/assets/images/book.png" alt="book" class="w-100">
+                                <img src="@/assets/images/books/book3.png" alt="book" class="w-100">
                             </div>
                         </div>
                         <span class="d-block mt-3">Dan dapatkan e-book marketing</span>

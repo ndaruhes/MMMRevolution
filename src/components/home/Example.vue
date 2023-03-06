@@ -1,14 +1,13 @@
 <template>
-    <div class="example" id="example">
+    <div class="example" id="exampleTransaction">
         <div class="container">
             <div class="heading">
                 <div class="row align-items-center justify-content-between">
                     <div class="col-md-5 text-left">
                         Contoh Transaksi
                     </div>
-                    <div class="col-md-5 text-right">We take an account that has 100% transfer transactions with 3x PH
-                        stages
-                        (10%, 40% and 50%)</div>
+                    <div class="col-md-5 text-right">Kami mengambil rekening yang memiliki transaksi transfer 100% dengan
+                        tahapan PH 3x (10%, 40% dan 50%)</div>
                 </div>
             </div>
         </div>
@@ -20,30 +19,26 @@
                 <swiper-slide>
                     <img src="@/assets/images/transaction-example/contoh-transaksi-1.jpeg" alt="transaction-example">
                     <p>
-                        On November 24, 2022, you proposed to provide help (PH) and at that moment, the 1st Transfer
-                        Order (PH 10%) appeared, you transferred directly to participant’s account, uploaded the
-                        proof
-                        of transfer (receipt) and the receiver confirmed transaction was completed!
+                        Pada tanggal 24 November 2022, Anda mengajukan untuk memberikan bantuan (PH) dan pada saat itu
+                        muncul Perintah Transfer ke-1 (PH 10%), Anda mentransfer langsung ke rekening peserta, mengunggah
+                        bukti transfer (resi) dan penerima mengkonfirmasi transaksi selesai!
                     </p>
                 </swiper-slide>
                 <swiper-slide>
                     <img src="@/assets/images/transaction-example/contoh-transaksi-1.jpeg" alt="transaction-example">
                     <p>
-                        On Nov 30, 2022 (6 days after the 1st Transfer Order), the 2nd Transfer Order appeared with
-                        a
-                        value of 40% of PH amount, you transferred directly to participant’s account, uploaded the
-                        proof
-                        of transfer (receipt) and the receiver confirmed transaction was completed!
+                        Pada tanggal 30 Nov 2022 (6 hari setelah Perintah Transfer ke-1), Perintah Transfer ke-2 muncul
+                        dengan nilai 40% dari jumlah PH, Anda mentransfer langsung ke rekening peserta, mengunggah bukti
+                        transfer (kwitansi) dan penerima konfirmasi transaksi selesai!
                     </p>
                 </swiper-slide>
                 <swiper-slide>
                     <img src="@/assets/images/transaction-example/contoh-transaksi-1.jpeg" alt="transaction-example">
                     <p>
-                        On Nov 30, 2022 (6 days after the 1st Transfer Order), the 2nd Transfer Order appeared with
-                        a
-                        value of 40% of PH amount, you transferred directly to participant’s account, uploaded the
-                        proof
-                        of transfer (receipt) and the receiver confirmed transaction was completed!
+                        Pada 04 Des 2022, (4 hari setelah Perintah Transfer ke-2), Anda bisa mendapatkan AUTO GH (Dapatkan
+                        Bantuan) senilai 40% dari jumlah PH. Anda bisa mendapatkan bantuan (GH) dari orang lain, periksa
+                        rekening bank/dompet Anda, dan konfirmasi transaksi yang diterima! Hanya tersisa 10% dari modal PH
+                        dengan akun Mavro berjalan yang telah berjalan selama 10 hari
                     </p>
                 </swiper-slide>
             </swiper>
@@ -51,9 +46,8 @@
 
         <div class="note bg-green">
             <p>
-                Note : You transfer PH, upload the proof of transfer (receipt), waiting the confirmation from Receiver.
-                If the Receiver has not confirmed in 48 hours, the system will automatically confirm the transaction
-                completed!
+                Note: Anda transfer PH, upload bukti transfer (receipt), tunggu konfirmasi dari Receiver. Jika Penerima
+                belum mengkonfirmasi dalam 48 jam, sistem akan secara otomatis mengkonfirmasi transaksi selesai!
             </p>
         </div>
     </div>

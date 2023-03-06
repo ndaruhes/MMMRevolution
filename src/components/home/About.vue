@@ -10,8 +10,7 @@
                     <h1>Apa itu MMM Revolution?</h1>
                     <img src="@/assets/images/about-illustration.png" alt="about-llistration" class="image-right">
                     <p>
-                        MMM Revolution adalah komunitas global tempat orang-orang saling membantu. Ini adalah dana
-                        bantuan
+                        MMM Revolution adalah komunitas global tempat orang-orang saling membantu. Ini adalah dana bantuan
                         bersama global. Peserta saling memberikan bantuan keuangan dengan prinsip bebas biaya, saling
                         menguntungkan.
                     </p>
@@ -21,6 +20,4 @@
     </div>
 </template>
 
-<style lang="scss" scoped>
-@import '@/assets/sass/about';
-</style>
+<style lang="scss" scoped>@import '@/assets/sass/about';</style>

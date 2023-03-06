@@ -2,7 +2,9 @@
 
 .register-now {
     .left {
-        padding: 80px;
+        display: flex;
+        justify-content: center;
+        align-items: center;
 
         h2 {
             font-size: 60px;
@@ -42,9 +44,10 @@
     .register-now {
         .left {
             padding: 30px 20px;
+            display: block;
 
             h2 {
-                font-size: 35px;
+                font-size: 27px;
                 margin-bottom: 30px;
                 text-align: center;
             }

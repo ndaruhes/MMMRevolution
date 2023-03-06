@@ -17,25 +17,25 @@
                     <div class="row">
                         <div class="col-6 col-md-4 item">
                             <ul>
-                                <li><a href="#">Home</a></li>
-                                <li><a href="#">Tentang Kami</a></li>
-                                <li><a href="#">Benefits</a></li>
-                                <li><a href="#">How it Works</a></li>
+                                <li><a href="#hero">Beranda</a></li>
+                                <li><a href="#about">Tentang Kami</a></li>
+                                <li><a href="#benefits">Keuntungan</a></li>
+                                <li><a href="#howItWorks">Sistem Kerja</a></li>
                             </ul>
                         </div>
                         <div class="col-6 col-md-4 item">
                             <ul>
-                                <li><a href="#">Contoh Transaksi</a></li>
-                                <li><a href="#">Testimonials</a></li>
-                                <li><a href="#">FAQ</a></li>
-                                <li><a href="#">Form</a></li>
+                                <li><a href="#exampleTransaction">Contoh Transaksi</a></li>
+                                <li><a href="#testimonials">Testimonial</a></li>
+                                <li><a href="#faq">Pertanyaan Umum</a></li>
+                                <li><a href="#registrationForm">Form</a></li>
                             </ul>
                         </div>
                         <div class="col-6 col-md-4 item">
                             <ul>
                                 <li><a href="#">Mail</a></li>
-                                <li><a href="#">Phone</a></li>
-                                <li><a href="#">Social Media</a></li>
+                                <li><a href="#">Telepon</a></li>
+                                <li><a href="#">Media Sosial</a></li>
                             </ul>
                         </div>
                     </div>
